@@ -1,0 +1,1452 @@
+{
+  "active": false,
+  "connections": {
+    "When clicking ‘Test workflow’": {
+      "main": [
+        [
+          {
+            "node": "Edit Fields",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Edit Fields": {
+      "main": [
+        [
+          {
+            "node": "HTTP Request",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "HTTP Request": {
+      "main": [
+        [
+          {
+            "node": "maincharacter",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "HTTP Request1": {
+      "main": [
+        [
+          {
+            "node": "Wait",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Wait": {
+      "main": [
+        [
+          {
+            "node": "Google Cloud Storage",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Google Cloud Storage": {
+      "main": [
+        [
+          {
+            "node": "AudioURLset",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "HTTP Request2": {
+      "main": [
+        [
+          {
+            "node": "Open AI Whisper",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Split Out": {
+      "main": [
+        [
+          {
+            "node": "HTTP Request11",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Split Out1": {
+      "main": [
+        [
+          {
+            "node": "HTTP Request5",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "HTTP Request5": {
+      "main": [
+        [
+          {
+            "node": "Convert to File",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Convert to File": {
+      "main": [
+        [
+          {
+            "node": "Wait1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Wait1": {
+      "main": [
+        [
+          {
+            "node": "Google Cloud Storage1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Google Cloud Storage1": {
+      "main": [
+        [
+          {
+            "node": "Limit",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Limit": {
+      "main": [
+        [
+          {
+            "node": "Edit Fields2",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Edit Fields2": {
+      "main": [
+        [
+          {
+            "node": "Code1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Edit Fields3": {
+      "main": [
+        [
+          {
+            "node": "HTTP Request6",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "HTTP Request6": {
+      "main": [
+        [
+          {
+            "node": "Wait2",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Wait2": {
+      "main": [
+        [
+          {
+            "node": "HTTP Request7",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "HTTP Request7": {
+      "main": [
+        [
+          {
+            "node": "download video",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "HTTP Request9": {
+      "main": [
+        [
+          {
+            "node": "Google Sheets",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Google Sheets1": {
+      "main": [
+        [
+          {
+            "node": "HTTP Request10",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "HTTP Request10": {
+      "main": [
+        [
+          {
+            "node": "YouTube",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "YouTube": {
+      "main": [
+        [
+          {
+            "node": "Google Sheets2",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Google Sheets2": {
+      "main": [
+        []
+      ]
+    },
+    "Code": {
+      "main": [
+        [
+          {
+            "node": "Split Out",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Code1": {
+      "main": [
+        [
+          {
+            "node": "Edit Fields3",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "HTTP Request11": {
+      "main": [
+        [
+          {
+            "node": "Split Out1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Open AI Whisper": {
+      "main": [
+        [
+          {
+            "node": "Code",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Caption from Deepseek": {
+      "main": [
+        [
+          {
+            "node": "HTTP Request9",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "download video": {
+      "main": [
+        [
+          {
+            "node": "Google Cloud Storage2",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Google Cloud Storage2": {
+      "main": [
+        [
+          {
+            "node": "Caption from Deepseek",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "AudioURLset": {
+      "main": [
+        [
+          {
+            "node": "HTTP Request2",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "maincharacter": {
+      "main": [
+        [
+          {
+            "node": "HTTP Request1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Schedule Trigger": {
+      "main": [
+        [
+          {
+            "node": "Google Sheets1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "createdAt": "2025-01-21T12:05:44.771Z",
+  "id": "MJ1fNjVa8vccW01b",
+  "meta": {
+    "templateCredsSetupCompleted": true
+  },
+  "name": "Insta Story",
+  "nodes": [
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        -840,
+        -480
+      ],
+      "id": "db3db2ab-bb3d-45b4-98ae-41122906f034",
+      "name": "When clicking ‘Test workflow’"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "df706dff-9a0a-417e-a034-017e39e43c25",
+              "name": "Video Category",
+              "value": "How to stay safe from online scam?",
+              "type": "string"
+            },
+            {
+              "id": "0be3eb03-4fe6-4432-943b-bef27c144e1a",
+              "name": "Bucket Name",
+              "value": "n8n_video1",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        -620,
+        -480
+      ],
+      "id": "fc1ed979-07d5-401f-bb5d-623f0e95de39",
+      "name": "Edit Fields",
+      "disabled": true
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.deepseek.com/chat/completions",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={\n    \"model\": \"deepseek-chat\",\n    \"messages\": [\n        {\n            \"role\": \"system\",\n            \"content\": \"You are a YouTube Shorts script writer. You write the very best scripts which holds attention with a hook line and then tells a very interesting story. Your task is to convert the video title given into an interesting story.\\nDuration of the video: 30 Seconds\\nTone: Interesting storytelling.\\n\\n***Text Only, Without Any Guiding Text\\n***Don't add any Closing Scene, Opening Scene, Action Text. Only Voiceover Text. \\n Do not put any punctuation marks in output like single quotes, double quotes etc.\"\n        },\n        {\n            \"role\": \"user\",\n            \"content\": \"{{ $json[ 'Video Category'] }}\"\n        }\n    ],\n    \"stream\": false\n}",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        -440,
+        -480
+      ],
+      "id": "071691b5-8f26-42f5-ba71-aaebf0bf7763",
+      "name": "HTTP Request",
+      "retryOnFail": true,
+      "waitBetweenTries": 5000,
+      "credentials": {
+        "httpHeaderAuth": {
+          "id": "3ByhubLg12SskKsB",
+          "name": "Deepseek API"
+        }
+      },
+      "disabled": true
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.elevenlabs.io/v1/text-to-speech/pqHfZKP75CvOlQylNhV4",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendBody": true,
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "text",
+              "value": "={{ $('HTTP Request').item.json.choices[0].message.content }}"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        -120,
+        -480
+      ],
+      "id": "bdf98c1a-267f-4284-a0fb-b08ef74c25dc",
+      "name": "HTTP Request1",
+      "credentials": {
+        "httpHeaderAuth": {
+          "id": "QklBWpLSgt5ekp5B",
+          "name": "eleven labs"
+        }
+      },
+      "disabled": true
+    },
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.wait",
+      "typeVersion": 1.1,
+      "position": [
+        60,
+        -480
+      ],
+      "id": "a5ed1f9a-ebf3-4f09-b44d-1f09ef54a592",
+      "name": "Wait",
+      "webhookId": "22de52de-d9a2-4417-9f16-2a4b45b5ace4",
+      "disabled": true
+    },
+    {
+      "parameters": {
+        "resource": "object",
+        "operation": "create",
+        "bucketName": "n8n_video1",
+        "objectName": "=audio",
+        "createData": {},
+        "createQuery": {},
+        "encryptionHeaders": {},
+        "requestOptions": {}
+      },
+      "type": "n8n-nodes-base.googleCloudStorage",
+      "typeVersion": 1,
+      "position": [
+        280,
+        -480
+      ],
+      "id": "3c46f65f-aac0-4464-8a86-36d3d2d77b2e",
+      "name": "Google Cloud Storage",
+      "credentials": {
+        "googleCloudStorageOAuth2Api": {
+          "id": "1Ci7jLF56Odb5oSA",
+          "name": "Google Cloud Storage account"
+        }
+      },
+      "disabled": true
+    },
+    {
+      "parameters": {
+        "url": "={{ $json['Audio url'] }}",
+        "authentication": "predefinedCredentialType",
+        "nodeCredentialType": "googleCloudStorageOAuth2Api",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        680,
+        -480
+      ],
+      "id": "cd9ddb9a-b1c9-4f92-bbf6-722180d9f944",
+      "name": "HTTP Request2",
+      "credentials": {
+        "httpHeaderAuth": {
+          "id": "QklBWpLSgt5ekp5B",
+          "name": "eleven labs"
+        },
+        "googleCloudStorageOAuth2Api": {
+          "id": "1Ci7jLF56Odb5oSA",
+          "name": "Google Cloud Storage account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "fieldToSplitOut": "groups",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.splitOut",
+      "typeVersion": 1,
+      "position": [
+        -640,
+        -240
+      ],
+      "id": "f26342b3-02ca-41cb-a6d3-f6c4d1b9edc8",
+      "name": "Split Out"
+    },
+    {
+      "parameters": {
+        "fieldToSplitOut": "choices",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.splitOut",
+      "typeVersion": 1,
+      "position": [
+        -140,
+        -240
+      ],
+      "id": "158ef28f-3f23-4eb4-b765-860d5392997f",
+      "name": "Split Out1"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.together.xyz/v1/images/generations",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={\n  \"model\": \"black-forest-labs/FLUX.1-schnell\",\n  \"prompt\": \"{{  $json.message.content.replaceSpecialChars().replaceAll('\\\"', ' ') }}\",\n  \"negative_prompt\": \"text, watermark, signature, paragraph, wording, letters, symbols, writing, nude, nudity, explicit content, obscene, inappropriate, offensive, forbidden, illegal, prohibited, sexual, graphic, violence, gore, blood, disturbing\",\n  \"width\": 1024,\n  \"height\": 1024,\n  \"steps\": 4,\n  \"n\": 1,\n  \"response_format\": \"b64_json\"\n}",
+        "options": {
+          "batching": {
+            "batch": {
+              "batchSize": 1,
+              "batchInterval": 6000
+            }
+          }
+        }
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        80,
+        -240
+      ],
+      "id": "afc563fb-ad96-4ce8-b841-1dc3e7cd9def",
+      "name": "HTTP Request5",
+      "credentials": {
+        "httpHeaderAuth": {
+          "id": "xlXI0gyfeIwb08tf",
+          "name": "together"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "toBinary",
+        "sourceProperty": "data[0].b64_json",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.convertToFile",
+      "typeVersion": 1.1,
+      "position": [
+        300,
+        -240
+      ],
+      "id": "587caefa-6fe5-4ce7-8d35-0c4bd1c46123",
+      "name": "Convert to File"
+    },
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.wait",
+      "typeVersion": 1.1,
+      "position": [
+        520,
+        -240
+      ],
+      "id": "717a4496-fa4d-4b08-9aa2-c83770a53a5b",
+      "name": "Wait1",
+      "webhookId": "35ef23cf-9477-4eab-a20f-1e28dea0d269"
+    },
+    {
+      "parameters": {
+        "resource": "object",
+        "operation": "create",
+        "bucketName": "n8n_video1",
+        "objectName": "=image_{{ $itemIndex + 1 }}",
+        "createData": {},
+        "createQuery": {},
+        "encryptionHeaders": {},
+        "requestOptions": {}
+      },
+      "type": "n8n-nodes-base.googleCloudStorage",
+      "typeVersion": 1,
+      "position": [
+        700,
+        -240
+      ],
+      "id": "86547021-14cc-4b35-b58e-1fce6adc2bdc",
+      "name": "Google Cloud Storage1",
+      "credentials": {
+        "googleCloudStorageOAuth2Api": {
+          "id": "1Ci7jLF56Odb5oSA",
+          "name": "Google Cloud Storage account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "maxItems": 10
+      },
+      "type": "n8n-nodes-base.limit",
+      "typeVersion": 1,
+      "position": [
+        920,
+        -240
+      ],
+      "id": "79070ae2-991c-4dd0-be77-ad76fde65fb7",
+      "name": "Limit"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "4176aa1d-4ab6-451a-808f-b0ff3680828b",
+              "name": "Image ID",
+              "value": "={{ $('Code').item.json.groups.length }}",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        -800,
+        0
+      ],
+      "id": "31c335f1-d38d-4029-8017-7c00c0c00ae6",
+      "name": "Edit Fields2"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "1d866461-c588-42db-8966-f9b0cbfb374a",
+              "name": "Music url",
+              "value": "https://n8n_video1.storage.googleapis.com/jungletheme.MP3",
+              "type": "string"
+            },
+            {
+              "id": "b079c43c-993d-4bc4-b509-14b756c4d885",
+              "name": "API key",
+              "value": "d0bcddd518f189acebe8181ef87ebc5dc24c2af6faf8cfe1f990ed47759a2f9a",
+              "type": "string"
+            },
+            {
+              "id": "93dc9829-efd6-4223-8cb6-fac8a2563e08",
+              "name": "Audio url",
+              "value": "https://n8n_video1.storage.googleapis.com/audio",
+              "type": "string"
+            },
+            {
+              "id": "71860bd7-d49d-49d7-9daf-350be49f4f5c",
+              "name": "Bucket Name",
+              "value": "n8n_video1",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        -380,
+        0
+      ],
+      "id": "84451d8d-0652-415e-aa6a-bd72e4ba4809",
+      "name": "Edit Fields3"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "=https://ai-automation-community.vercel.app/api/function/video-generation/image-video?api_key={{ $json['API key'] }}",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={\n  \"type\": \"ImageVideo\",\n  \"data\": {\n    \"voice_url\": \"{{ $json['Audio url'] }}\",\n    \"background_url\": \"{{ $json['Music url'] }}\",\n    \"transcripts\": {{ JSON.stringify($('Code1').item.json.chunks) }},\n    \"image_list\": [{{Array.from({ length: $('Edit Fields2').item.json['Image ID'] }, (_, i) => \n  `\"https://${ $('Edit Fields3').item.json['Bucket Name']}.storage.googleapis.com/image_${i + 1}\"`) }}]\n    \n  }\n}\n",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        -140,
+        0
+      ],
+      "id": "ab364b96-9f4d-4a9d-936f-68b4fa04b7b2",
+      "name": "HTTP Request6"
+    },
+    {
+      "parameters": {
+        "amount": 1,
+        "unit": "minutes"
+      },
+      "type": "n8n-nodes-base.wait",
+      "typeVersion": 1.1,
+      "position": [
+        20,
+        0
+      ],
+      "id": "a994468a-7aba-47b6-a3ef-1d8b0bb520d7",
+      "name": "Wait2",
+      "webhookId": "4edd4948-393a-498e-94f0-f204f7a3989d"
+    },
+    {
+      "parameters": {
+        "url": "=https://ai-automation-community.vercel.app/api/function/video-generation/progress/{{ $('HTTP Request6').item.json.data.id }}?api_key={{ $('Edit Fields3').item.json['API key'] }}",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        200,
+        0
+      ],
+      "id": "6ddde9f7-ca89-4b69-ad6a-d92675ca830b",
+      "name": "HTTP Request7"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.deepseek.com/chat/completions",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={\n\"model\": \"deepseek-chat\",\n\"messages\": [\n{\n\"role\": \"system\",\n\"content\": \"Convert the following transcript into a Youtube shorts title. Ensure the tone is engaging and suitable for Youtube, with a focus on visuals, and a call-to-action where appropriate. Maintain the core message while adapting it for a longer and more expressive format.\\n\\nMaximum Total Text Length: 30\"\n},\n{\n\"role\": \"user\",\n\"content\": \"{{$('Open AI Whisper').item.json.text.replaceAll(\"\\\"\", \"\")}}\"\n}],\n\n\"stream\": false\n}\n",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        960,
+        0
+      ],
+      "id": "b20c9fd0-ce0a-4a57-87dc-d6c289d455db",
+      "name": "HTTP Request9",
+      "retryOnFail": true,
+      "waitBetweenTries": 5000,
+      "credentials": {
+        "httpHeaderAuth": {
+          "id": "3ByhubLg12SskKsB",
+          "name": "Deepseek API"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "append",
+        "documentId": {
+          "__rl": true,
+          "value": "https://docs.google.com/spreadsheets/d/1L9BwVipAEhI545kRw4OzCk-c6LvOsQ3tD__IcNmLwus/edit?gid=0#gid=0",
+          "mode": "url"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": "gid=0",
+          "mode": "list",
+          "cachedResultName": "Sheet1",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1L9BwVipAEhI545kRw4OzCk-c6LvOsQ3tD__IcNmLwus/edit#gid=0"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "Video Title": "={{ $json.choices[0].message.content }}",
+            "Video URL": "new",
+            "Post Status": "pending",
+            "Post Time": " =now()",
+            "Captions": "={{ $('Caption from Deepseek').item.json.choices[0].message.content }}"
+          },
+          "matchingColumns": [],
+          "schema": [
+            {
+              "id": "Video Title",
+              "displayName": "Video Title",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "Video URL",
+              "displayName": "Video URL",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "Post Status",
+              "displayName": "Post Status",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "Post Time",
+              "displayName": "Post Time",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "Captions",
+              "displayName": "Captions",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            }
+          ],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": false
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.5,
+      "position": [
+        1180,
+        0
+      ],
+      "id": "6f5e6978-9112-4e24-aa4a-b58b71ff5309",
+      "name": "Google Sheets",
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "NQAgnkHR2MbVFVD6",
+          "name": "Google Sheets account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "documentId": {
+          "__rl": true,
+          "value": "https://docs.google.com/spreadsheets/d/1L9BwVipAEhI545kRw4OzCk-c6LvOsQ3tD__IcNmLwus/edit?gid=0#gid=0",
+          "mode": "url"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": "gid=0",
+          "mode": "list",
+          "cachedResultName": "Sheet1",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1L9BwVipAEhI545kRw4OzCk-c6LvOsQ3tD__IcNmLwus/edit#gid=0"
+        },
+        "filtersUI": {
+          "values": [
+            {
+              "lookupColumn": "Post Status",
+              "lookupValue": "pending"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.5,
+      "position": [
+        -620,
+        300
+      ],
+      "id": "01798421-a06a-4b4c-a3c1-f02837e2b577",
+      "name": "Google Sheets1",
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "NQAgnkHR2MbVFVD6",
+          "name": "Google Sheets account"
+        }
+      },
+      "disabled": true
+    },
+    {
+      "parameters": {
+        "url": "https://n8n_video1.storage.googleapis.com/merged_video",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        -400,
+        300
+      ],
+      "id": "a9129fec-fba8-437a-839c-99b8854b9928",
+      "name": "HTTP Request10",
+      "disabled": true
+    },
+    {
+      "parameters": {
+        "resource": "video",
+        "operation": "upload",
+        "title": "={{ $('Google Sheets1').item.json['Video Title'] }}",
+        "regionCode": "IN",
+        "categoryId": "1",
+        "options": {
+          "description": "={{ $('Google Sheets1').item.json.Captions }}",
+          "privacyStatus": "public"
+        }
+      },
+      "type": "n8n-nodes-base.youTube",
+      "typeVersion": 1,
+      "position": [
+        -180,
+        300
+      ],
+      "id": "e8ffdf69-1f5f-46da-9c4b-51cc1fa4df21",
+      "name": "YouTube",
+      "credentials": {
+        "youTubeOAuth2Api": {
+          "id": "bimMv2RdR6eCu0AP",
+          "name": "YouTube account"
+        }
+      },
+      "disabled": true
+    },
+    {
+      "parameters": {
+        "operation": "update",
+        "documentId": {
+          "__rl": true,
+          "value": "https://docs.google.com/spreadsheets/d/1L9BwVipAEhI545kRw4OzCk-c6LvOsQ3tD__IcNmLwus/edit?gid=0#gid=0",
+          "mode": "url"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": "gid=0",
+          "mode": "list",
+          "cachedResultName": "Sheet1",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1L9BwVipAEhI545kRw4OzCk-c6LvOsQ3tD__IcNmLwus/edit#gid=0"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "row_number": "={{ $('Google Sheets1').item.json.row_number }}",
+            "Post Status": "posted"
+          },
+          "matchingColumns": [
+            "row_number"
+          ],
+          "schema": [
+            {
+              "id": "Video Title",
+              "displayName": "Video Title",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": true
+            },
+            {
+              "id": "Video URL",
+              "displayName": "Video URL",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": true
+            },
+            {
+              "id": "Post Status",
+              "displayName": "Post Status",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "Post Time",
+              "displayName": "Post Time",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "Captions",
+              "displayName": "Captions",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": true
+            },
+            {
+              "id": "row_number",
+              "displayName": "row_number",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "readOnly": true,
+              "removed": false
+            }
+          ],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": false
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.5,
+      "position": [
+        40,
+        300
+      ],
+      "id": "7203880b-1174-41cf-aeff-a7a1a5e2a7d0",
+      "name": "Google Sheets2",
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "NQAgnkHR2MbVFVD6",
+          "name": "Google Sheets account"
+        }
+      },
+      "disabled": true
+    },
+    {
+      "parameters": {
+        "jsCode": "return items.map(item => {\n    const words = item.json.words;\n    // Assuming the words are stored in a JSON object\n    const result = [];\n    let startTime = words[0].start; // Start time for the first word\n    let endTime = startTime + 6; // End Time for the first word\n    let currentGroup = []; // Holds the current group of words\n  \n    // Loop through each word and group them into 6-second intervals\n    let index = 0;\n    for (const word of words) {\n      if (word.start < endTime) { // If the word's start time is within the current 6-second interval\n        currentGroup.push(word.word); // Add the word to the current group\n      } else {\n        index ++;\n        result.push({\n          text: currentGroup.join(' '),\n          start: startTime,\n          end: word.end,\n          index: index \n        });\n        startTime = word.start;\n        endTime = startTime + 6;\n        currentGroup = [word.word]\n      }\n    }\n\n    if (currentGroup.length > 0) {\n        index++;\n        result.push({\n          text: currentGroup.join(' '),\n          start: startTime,\n          end: words[words.length -1].end,\n          index: index \n        });\n    }\n\n    return{\n        json: {\n            groups: result,\n        },\n    };\n});\n\n"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        -900,
+        -240
+      ],
+      "id": "5f28fbeb-515f-485c-af53-85711dce9e2f",
+      "name": "Code"
+    },
+    {
+      "parameters": {
+        "jsCode": "return $items('Open AI Whisper').map(item => {\n  const words = item.json.words;\n  const result = [];\n\n  for (let i = 0; i < words.length; i += 3) {\n    const chunk = words.slice(i, i + 3);\n    result.push({\n      words: chunk.map(word => word.word.charAt(0).toUpperCase() + word.word.slice(1)).join(' '),\n      start: chunk[0].start,\n      end: chunk[chunk.length - 1].end,\n    });\n  }\n\n  return {\n    json: {\n      chunks: result\n    },\n  };\n});"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        -580,
+        0
+      ],
+      "id": "9e9ae76b-d285-426e-b59b-347edb13353d",
+      "name": "Code1"
+    },
+    {
+      "parameters": {
+        "content": "",
+        "height": 700,
+        "width": 2440
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        -1000,
+        -500
+      ],
+      "id": "c59eddc8-c776-4fcd-8712-c42c11aac802",
+      "name": "Sticky Note"
+    },
+    {
+      "parameters": {
+        "content": "",
+        "height": 220,
+        "width": 1220,
+        "color": 4
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        -940,
+        260
+      ],
+      "id": "c3acaa33-d766-4bfe-a730-eeb614c2a8d7",
+      "name": "Sticky Note1",
+      "disabled": true
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.deepseek.com/chat/completions",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={\n    \"model\": \"deepseek-chat\",\n    \"messages\": [\n        {\n            \"role\": \"system\", \n            \"content\": \"You are an image prompt designer, you task is to convert the following transcript text into image prompt for image generation model. The images prompt should follow the story main characters as here. {{ $('maincharacter').item.json.text }}\\n\\nHere are the style of the image:\\n\\nStyle: Hyperrealism, 8K\\n\\n***Output the prompt directly without Image Prompt.\\n***Don't include \\\",', double quotes and single quotes\"\n        },\n        {\n            \"role\": \"user\",\n            \"content\": \"{{ $json[ 'text'].replaceAll(\"\\\"\", \"\") }}\"\n        }\n    ],\n    \"stream\": false\n}\n\n",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        -380,
+        -240
+      ],
+      "id": "36d85d50-09bc-4ef3-85d6-8a33f3c488b6",
+      "name": "HTTP Request11",
+      "retryOnFail": true,
+      "waitBetweenTries": 5000,
+      "credentials": {
+        "httpHeaderAuth": {
+          "id": "3ByhubLg12SskKsB",
+          "name": "Deepseek API"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": " https://api.openai.com/v1/audio/transcriptions",
+        "authentication": "predefinedCredentialType",
+        "nodeCredentialType": "openAiApi",
+        "sendBody": true,
+        "contentType": "multipart-form-data",
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "timestamp_granularities[]",
+              "value": "word"
+            },
+            {
+              "name": "model",
+              "value": "whisper-1"
+            },
+            {
+              "name": "response_format",
+              "value": "verbose_json"
+            },
+            {
+              "parameterType": "formBinaryData",
+              "name": "file",
+              "inputDataFieldName": "data"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        920,
+        -480
+      ],
+      "id": "cf4c7ad8-b17b-4fe2-b998-42a80e1efdbd",
+      "name": "Open AI Whisper",
+      "credentials": {
+        "httpHeaderAuth": {
+          "id": "QklBWpLSgt5ekp5B",
+          "name": "eleven labs"
+        },
+        "openAiApi": {
+          "id": "eBHmjvTWmfdb5wuO",
+          "name": "OpenAi account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.deepseek.com/chat/completions",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendBody": true,
+        "specifyBody": "=json",
+        "bodyParameters": {
+          "parameters": [
+            {}
+          ]
+        },
+        "jsonBody": "={\n\"model\": \"deepseek-chat\",\n\"messages\": [\n{\n\"role\": \"system\",\n\"content\": \"Convert the following transcript into a Youtube shorts caption. Ensure the tone is engaging and suitable for Youtube Shorts, with a focus on visuals, hashtags, and a call-to-action where appropriate. Maintain the core message while adapting it for a longer and more expressive format.\\n\\nMaximum Total Text Length: 100\"\n},\n{\n\"role\": \"user\",\n\"content\": \"{{$('Open AI Whisper').item.json.text.replaceAll(\"\\\"\", \"\")}}\"\n}],\n\n\"stream\": false\n}\n",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        760,
+        0
+      ],
+      "id": "7b950aac-d385-4702-867c-fe150361d3c8",
+      "name": "Caption from Deepseek",
+      "retryOnFail": true,
+      "waitBetweenTries": 5000,
+      "credentials": {
+        "httpHeaderAuth": {
+          "id": "3ByhubLg12SskKsB",
+          "name": "Deepseek API"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "url": "=https://ai-automation-community.vercel.app{{ $json.data.url }}",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        380,
+        0
+      ],
+      "id": "82ff0080-4d7a-4760-a100-46e33453c566",
+      "name": "download video"
+    },
+    {
+      "parameters": {
+        "resource": "object",
+        "operation": "create",
+        "bucketName": "n8n_video1",
+        "objectName": "=merged_video",
+        "createData": {},
+        "createQuery": {},
+        "encryptionHeaders": {},
+        "requestOptions": {}
+      },
+      "type": "n8n-nodes-base.googleCloudStorage",
+      "typeVersion": 1,
+      "position": [
+        560,
+        0
+      ],
+      "id": "fc5dfac2-de16-4d61-9293-ad57d9fd3491",
+      "name": "Google Cloud Storage2",
+      "credentials": {
+        "googleCloudStorageOAuth2Api": {
+          "id": "1Ci7jLF56Odb5oSA",
+          "name": "Google Cloud Storage account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "f23b0c77-cbb2-48c6-9fc7-4b025a8cd9d8",
+              "name": "Audio url",
+              "value": "=https://n8n_video1.storage.googleapis.com/audio.mp3",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        460,
+        -480
+      ],
+      "id": "5face4de-913b-4e70-a550-aea5aca47661",
+      "name": "AudioURLset"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.deepseek.com/chat/completions",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={\n    \"model\": \"deepseek-chat\",\n    \"messages\": [\n        {\n            \"role\": \"system\", \n            \"content\": \"You are a story researcher expert in indentifying main characters in a story. you task is to find the main characters in the story and output just the characters. Do not output any other text. if there is no main charater just return 'no main character'\"\n        },\n        {\n            \"role\": \"user\",\n            \"content\": \"{{ $json.choices[0].message.content.replaceAll(\"\\\"\", \"\").replaceAll(\"’\",\"\").replaceAll(\"'\",\"\").replaceAll('\"',\"\") }}\"\n        }\n    ],\n    \"stream\": false\n}\n\n",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        -280,
+        -480
+      ],
+      "id": "cc8149bb-5d3b-4135-b9e8-e0f984930d46",
+      "name": "maincharacter",
+      "retryOnFail": true,
+      "waitBetweenTries": 5000,
+      "credentials": {
+        "httpHeaderAuth": {
+          "id": "3ByhubLg12SskKsB",
+          "name": "Deepseek API"
+        }
+      },
+      "disabled": true
+    },
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {}
+          ]
+        }
+      },
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        -860,
+        300
+      ],
+      "id": "859c227c-9819-46e3-903d-0ac3f5980b4d",
+      "name": "Schedule Trigger",
+      "disabled": true
+    }
+  ],
+  "pinData": {
+    "Split Out": [
+      {
+        "json": {
+          "text": "Imagine this You get a text saying you won a million dollars All you need to do is click a",
+          "start": 0,
+          "end": 6.739999771118164,
+          "index": 1
+        }
+      },
+      {
+        "json": {
+          "text": "link Sounds too good to be true right Because it is online Scams are everywhere but here's how you stay",
+          "start": 6.639999866485596,
+          "end": 13.119999885559082,
+          "index": 2
+        }
+      },
+      {
+        "json": {
+          "text": "safe First never click on suspicious links or download attachments from unknown sources",
+          "start": 12.779999732971191,
+          "end": 18.860000610351562,
+          "index": 3
+        }
+      },
+      {
+        "json": {
+          "text": "Second if someone asks for your personal info like passwords or bank details red flag alert",
+          "start": 18.780000686645508,
+          "end": 24.940000534057617,
+          "index": 4
+        }
+      },
+      {
+        "json": {
+          "text": "Third always double check the sender's email or website address Scammers often use fake ones that look real and",
+          "start": 24.860000610351562,
+          "end": 31.399999618530273,
+          "index": 5
+        }
+      },
+      {
+        "json": {
+          "text": "finally trust your gut If something feels off it probably is stay sharp Stay safe and keep your",
+          "start": 31.059999465942383,
+          "end": 37.36000061035156,
+          "index": 6
+        }
+      },
+      {
+        "json": {
+          "text": "money where it belongs in your pocket",
+          "start": 37.220001220703125,
+          "end": 38.7599983215332,
+          "index": 7
+        }
+      }
+    ]
+  },
+  "repo_name": "JupyterSite",
+  "repo_owner": "ribokle",
+  "repo_path": "n8n",
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "staticData": null,
+  "tags": [],
+  "triggerCount": 0,
+  "updatedAt": "2025-02-05T10:35:12.000Z",
+  "versionId": "e3e22c15-b6a3-4996-9987-47726bf87027"
+}
