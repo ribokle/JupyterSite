@@ -3,35 +3,7 @@
   "connections": {
     "When clicking ‘Test workflow’": {
       "main": [
-        [
-          {
-            "node": "AI Agent",
-            "type": "main",
-            "index": 0
-          }
-        ]
-      ]
-    },
-    "When chat message received": {
-      "main": [
-        [
-          {
-            "node": "AI Agent",
-            "type": "main",
-            "index": 0
-          }
-        ]
-      ]
-    },
-    "OpenAI Chat Model": {
-      "ai_languageModel": [
-        [
-          {
-            "node": "AI Agent",
-            "type": "ai_languageModel",
-            "index": 0
-          }
-        ]
+        []
       ]
     }
   },
@@ -52,58 +24,6 @@
       ],
       "id": "70615a95-4655-4d51-abcc-818f142885e4",
       "name": "When clicking ‘Test workflow’"
-    },
-    {
-      "parameters": {
-        "options": {}
-      },
-      "type": "@n8n/n8n-nodes-langchain.chatTrigger",
-      "typeVersion": 1.1,
-      "position": [
-        220,
-        0
-      ],
-      "id": "8b3d3917-f69a-4bb5-abdf-7f18be3a8f01",
-      "name": "When chat message received",
-      "webhookId": "75aae404-4de4-4dc1-bf38-5bcffbd3eaf8"
-    },
-    {
-      "parameters": {
-        "options": {}
-      },
-      "type": "@n8n/n8n-nodes-langchain.agent",
-      "typeVersion": 1.7,
-      "position": [
-        440,
-        0
-      ],
-      "id": "93e5d14d-b2c7-4bd6-992b-0c929b60c42c",
-      "name": "AI Agent"
-    },
-    {
-      "parameters": {
-        "model": {
-          "__rl": true,
-          "value": "mistralai/codestral-mamba",
-          "mode": "list",
-          "cachedResultName": "mistralai/codestral-mamba"
-        },
-        "options": {}
-      },
-      "type": "@n8n/n8n-nodes-langchain.lmChatOpenAi",
-      "typeVersion": 1.2,
-      "position": [
-        480,
-        220
-      ],
-      "id": "942cb1a7-5930-47f4-9b07-a46daf345603",
-      "name": "OpenAI Chat Model",
-      "credentials": {
-        "openAiApi": {
-          "id": "2BwGvYqnEAij9QhJ",
-          "name": "Openrouter account"
-        }
-      }
     }
   ],
   "pinData": {},
@@ -116,6 +36,6 @@
   "staticData": null,
   "tags": [],
   "triggerCount": 0,
-  "updatedAt": "2025-02-13T17:43:28.000Z",
-  "versionId": "56743ec8-c3a0-4e9d-a98f-a0df66f0a36a"
+  "updatedAt": "2025-02-14T22:13:53.000Z",
+  "versionId": "693677a4-2d45-4563-a409-6772bcf2ee6c"
 }
