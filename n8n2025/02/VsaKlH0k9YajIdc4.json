@@ -1,0 +1,206 @@
+{
+  "active": false,
+  "connections": {
+    "Cron": {
+      "main": [
+        [
+          {
+            "node": "Export Workflows",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "git add": {
+      "main": [
+        [
+          {
+            "node": "git commit",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "git commit": {
+      "main": [
+        [
+          {
+            "node": "git push",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Export Workflows": {
+      "main": [
+        [
+          {
+            "node": "Export Credentials",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Export Credentials": {
+      "main": [
+        [
+          {
+            "node": "git add",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "On clicking 'execute'": {
+      "main": [
+        [
+          {
+            "node": "Export Workflows",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "createdAt": "2025-02-16T16:42:28.293Z",
+  "id": "VsaKlH0k9YajIdc4",
+  "meta": null,
+  "name": "git_backup",
+  "nodes": [
+    {
+      "parameters": {},
+      "name": "On clicking 'execute'",
+      "type": "n8n-nodes-base.manualTrigger",
+      "position": [
+        0,
+        200
+      ],
+      "typeVersion": 1,
+      "id": "c80a6a07-7415-4dfb-897b-caa8b381648b"
+    },
+    {
+      "parameters": {
+        "command": "npx n8n export:workflow --backup --output n8nrepo/workflows/"
+      },
+      "name": "Export Workflows",
+      "type": "n8n-nodes-base.executeCommand",
+      "position": [
+        200,
+        100
+      ],
+      "typeVersion": 1,
+      "id": "55ba9898-31fe-40ef-b903-0d2a4199493e"
+    },
+    {
+      "parameters": {
+        "command": "npx n8n export:credentials --backup --output n8nrepo/credentials/"
+      },
+      "name": "Export Credentials",
+      "type": "n8n-nodes-base.executeCommand",
+      "position": [
+        360,
+        100
+      ],
+      "typeVersion": 1,
+      "id": "e67f1d38-2f13-48d5-9208-e4c977bdb7ca"
+    },
+    {
+      "parameters": {
+        "command": "git -C n8nrepo add ."
+      },
+      "name": "git add",
+      "type": "n8n-nodes-base.executeCommand",
+      "position": [
+        500,
+        100
+      ],
+      "typeVersion": 1,
+      "id": "91e7d423-1df3-465a-8f4f-7d6d815d706e"
+    },
+    {
+      "parameters": {
+        "command": "=git -C n8nrepo commit -m \"Auto backup ({{ new Date().toISOString() }})\""
+      },
+      "name": "git commit",
+      "type": "n8n-nodes-base.executeCommand",
+      "position": [
+        660,
+        100
+      ],
+      "typeVersion": 1,
+      "id": "aa726f76-ce69-46a4-bd1b-82b5267a761a"
+    },
+    {
+      "parameters": {
+        "command": "git -C n8nrepo push"
+      },
+      "name": "git push",
+      "type": "n8n-nodes-base.executeCommand",
+      "position": [
+        800,
+        100
+      ],
+      "typeVersion": 1,
+      "id": "50c75a64-858a-47c1-b5de-fd154d2dbbab"
+    },
+    {
+      "parameters": {
+        "triggerTimes": {
+          "item": [
+            {
+              "hour": 0
+            },
+            {
+              "hour": 12
+            },
+            {
+              "hour": 6
+            },
+            {
+              "hour": 18
+            }
+          ]
+        }
+      },
+      "name": "Cron",
+      "type": "n8n-nodes-base.cron",
+      "position": [
+        0,
+        0
+      ],
+      "typeVersion": 1,
+      "id": "a686d3b6-f077-40f4-9adc-e097b4aaf000"
+    },
+    {
+      "parameters": {
+        "content": "https://n8n.io/workflows/1053-git-backup-of-workflows-and-credentials/?_gl=1%2acmet12%2a_ga%2aOTI2NjIyODEwLjE3Mzk3MjIzODQ.%2a_ga_0SC4FF2FH9%2aMTczOTcyMjM4My4xLjEuMTczOTcyMzgzNi42MC4wLjA."
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        -300,
+        0
+      ],
+      "id": "90249924-4529-42da-ada3-362e086bb400",
+      "name": "Sticky Note"
+    }
+  ],
+  "pinData": {},
+  "repo_name": "JupyterSite",
+  "repo_owner": "ribokle",
+  "repo_path": "n8n",
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "staticData": null,
+  "tags": [],
+  "triggerCount": 0,
+  "updatedAt": "2025-02-16T20:08:52.000Z",
+  "versionId": "567afcaf-24c0-4193-9b62-12a22f5d65a2"
+}
