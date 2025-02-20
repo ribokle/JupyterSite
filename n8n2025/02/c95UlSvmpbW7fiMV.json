@@ -1,0 +1,83 @@
+{
+  "active": false,
+  "connections": {
+    "When clicking ‘Test workflow’": {
+      "main": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "When chat message received": {
+      "main": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "createdAt": "2025-02-19T19:50:30.065Z",
+  "id": "c95UlSvmpbW7fiMV",
+  "meta": null,
+  "name": "testai",
+  "nodes": [
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        0,
+        0
+      ],
+      "id": "852815fb-9342-4bdd-90e7-6bdd28f3fc4b",
+      "name": "When clicking ‘Test workflow’"
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.chatTrigger",
+      "typeVersion": 1.1,
+      "position": [
+        0,
+        -180
+      ],
+      "id": "c9bb0775-2183-4208-a21f-488b0719c3f9",
+      "name": "When chat message received",
+      "webhookId": "2406eb73-5c55-463f-b6a2-351089bcb79e"
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 1.7,
+      "position": [
+        440,
+        0
+      ],
+      "id": "a704403a-2f4b-4960-b6db-f59a06ac54e9",
+      "name": "AI Agent"
+    }
+  ],
+  "pinData": {},
+  "repo_name": "JupyterSite",
+  "repo_owner": "ribokle",
+  "repo_path": "n8n",
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "staticData": null,
+  "tags": [],
+  "triggerCount": 0,
+  "updatedAt": "2025-02-19T19:50:53.000Z",
+  "versionId": "d33c9178-5963-403a-b85f-48df26f05dd4"
+}
