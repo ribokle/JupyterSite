@@ -155,15 +155,6 @@
           "item": [
             {
               "hour": 0
-            },
-            {
-              "hour": 12
-            },
-            {
-              "hour": 6
-            },
-            {
-              "hour": 18
             }
           ]
         }
@@ -201,6 +192,6 @@
   "staticData": null,
   "tags": [],
   "triggerCount": 1,
-  "updatedAt": "2025-02-19T19:52:42.000Z",
-  "versionId": "29fbf410-ebd2-4f18-80fc-fa6c0e4f168b"
+  "updatedAt": "2025-02-20T17:52:29.000Z",
+  "versionId": "e9ff05ff-b3a4-4ffc-bbc4-d282835a8053"
 }
