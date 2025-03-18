@@ -1,0 +1,99 @@
+{
+  "active": false,
+  "connections": {
+    "When chat message received": {
+      "main": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "OpenAI Chat Model": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "createdAt": "2025-03-17T10:25:15.259Z",
+  "id": "qDHajggYcjISpO8o",
+  "meta": {
+    "templateCredsSetupCompleted": true
+  },
+  "name": "AI_chat with search",
+  "nodes": [
+    {
+      "parameters": {
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.chatTrigger",
+      "typeVersion": 1.1,
+      "position": [
+        0,
+        0
+      ],
+      "id": "b19b4c07-c1e0-424d-93cb-98c04be79919",
+      "name": "When chat message received",
+      "webhookId": "9a9e7bfe-d5d5-4170-bc8d-f559e4edc5cc"
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 1.7,
+      "position": [
+        220,
+        0
+      ],
+      "id": "674fcc22-6801-4b72-b106-2c5ee0869d1e",
+      "name": "AI Agent"
+    },
+    {
+      "parameters": {
+        "model": {
+          "__rl": true,
+          "value": "google/gemini-2.0-flash-exp:free",
+          "mode": "list",
+          "cachedResultName": "google/gemini-2.0-flash-exp:free"
+        },
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatOpenAi",
+      "typeVersion": 1.2,
+      "position": [
+        260,
+        220
+      ],
+      "id": "97683269-2e4a-4d54-8922-d0bc567ab91e",
+      "name": "OpenAI Chat Model",
+      "credentials": {
+        "openAiApi": {
+          "id": "2BwGvYqnEAij9QhJ",
+          "name": "Openrouter account"
+        }
+      }
+    }
+  ],
+  "pinData": {},
+  "repo_name": "JupyterSite",
+  "repo_owner": "ribokle",
+  "repo_path": "n8n",
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "staticData": null,
+  "tags": [],
+  "triggerCount": 0,
+  "updatedAt": "2025-03-17T10:25:15.259Z",
+  "versionId": "16d14223-729f-4ba3-ae35-397de3c4124e"
+}
