@@ -73,9 +73,9 @@
       "parameters": {
         "model": {
           "__rl": true,
-          "value": "google/gemini-2.0-flash-exp:free",
+          "value": "google/gemini-2.0-flash-thinking-exp:free",
           "mode": "list",
-          "cachedResultName": "google/gemini-2.0-flash-exp:free"
+          "cachedResultName": "google/gemini-2.0-flash-thinking-exp:free"
         },
         "options": {}
       },
@@ -116,6 +116,6 @@
   "staticData": null,
   "tags": [],
   "triggerCount": 0,
-  "updatedAt": "2025-04-10T09:29:08.000Z",
-  "versionId": "7812523d-26c5-4d56-8dde-17eb27a66496"
+  "updatedAt": "2025-04-11T14:13:34.000Z",
+  "versionId": "1a93cfd6-de16-4f20-a2f9-84c164aea270"
 }
