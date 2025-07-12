@@ -62,9 +62,9 @@
       "parameters": {
         "model": {
           "__rl": true,
-          "value": "google/gemini-2.0-flash-thinking-exp:free",
+          "value": "openai/chatgpt-4o-latest",
           "mode": "list",
-          "cachedResultName": "google/gemini-2.0-flash-thinking-exp:free"
+          "cachedResultName": "openai/chatgpt-4o-latest"
         },
         "options": {}
       },
@@ -94,6 +94,6 @@
   "staticData": null,
   "tags": [],
   "triggerCount": 0,
-  "updatedAt": "2025-04-12T07:46:57.000Z",
-  "versionId": "bd4f440f-bd53-4ab3-9136-7a1da09bed09"
+  "updatedAt": "2025-07-11T06:33:40.000Z",
+  "versionId": "8f14c8c8-b197-4446-95c3-bc51bd362935"
 }
