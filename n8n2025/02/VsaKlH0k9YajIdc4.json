@@ -70,6 +70,7 @@
   },
   "createdAt": "2025-02-16T16:42:28.293Z",
   "id": "VsaKlH0k9YajIdc4",
+  "isArchived": false,
   "meta": null,
   "name": "git_backup",
   "nodes": [
