@@ -131,6 +131,7 @@
   },
   "createdAt": "2025-02-20T18:11:55.551Z",
   "id": "P7qfVVnlW311qanl",
+  "isArchived": false,
   "meta": null,
   "name": "restore_backup",
   "nodes": [
