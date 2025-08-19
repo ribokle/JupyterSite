@@ -165,6 +165,7 @@
   },
   "createdAt": "2025-01-17T19:37:16.370Z",
   "id": "N09dUylAdtGJRiI1",
+  "isArchived": false,
   "meta": null,
   "name": "GithubExpert",
   "nodes": [
