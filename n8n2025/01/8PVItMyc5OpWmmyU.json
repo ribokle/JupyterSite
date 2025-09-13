@@ -437,6 +437,15 @@
   "repo_owner": "ribokle",
   "repo_path": "n8n",
   "settings": {},
+  "shared": [
+    {
+      "createdAt": "2025-01-27T10:49:50.169Z",
+      "updatedAt": "2025-01-27T10:49:50.169Z",
+      "role": "workflow:owner",
+      "workflowId": "8PVItMyc5OpWmmyU",
+      "projectId": "MeedxfkMHNnSz9Bn"
+    }
+  ],
   "staticData": null,
   "tags": [],
   "triggerCount": 0,
